@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corazón de palabras</title>
+    <style>
+        /*Le damos un color de fondo a todo el cuerpo*/
+        body{
+            background-color: #0b1522;
+        }
+        /*Accedemos al container que envuelve todas las palabras*/
+        .container{
+            width: 500px;
+            height: 500px;
+            /*Le damos ancho y alto - ahora le vamos a dar un borde para que se vea*/
+            /*border: 3px solid blue; Quitamos el marco azul*/
+            right: -550px;
+            bottom: 0px;
+            position: relative;
+            /*Posicionamos relative para que quede como padre el contenedor 
+            Luego a las palabras de dentro posicionaremos absolute
+            Para que tome al contenedor padre como referencia al ponerle las propiedades de margin, bottom, etc*/
+        } /*Accedemos a la palabra principal del centro de nuestro corazón*/
+
+        
+
+        .amor{
+            position: absolute;
+            right: 225px;
+            bottom: 120px;
+            color: rgb(255, 0, 238);
+            font-size: 25px;
+        }.amor1{
+            position: absolute;
+            right: 215px;
+            bottom: 110px;
+            color: rgb(255, 0, 238);
+            font-size: 12px;
+        }.amor2{
+            position: absolute;
+            right: 255px;
+            bottom: 70px;
+            color: rgb(255, 0, 238);
+            font-size: 20px;
+        }
+
+        .primera{
+            /*Posicionaremos absolute para que tome como referencia el contenedor principal y ajustamos el right y bottom segun queramos*/
+            position: absolute;
+            right: 225px;
+            bottom: 0;
+        }
+
+        /*Ahora accedemos a todas las palabras para darles un color en particular*/
+        p{
+            color: red;
+
+            /*Le damos una sombra al corazón*/
+            box-shadow: -10px 15px 100px #f20044;
+        }
+
+        .segunda{
+                position: absolute;
+                right: 200px;
+                bottom: 12px;
+            }
+            .tercera{
+                position: absolute;
+                right: 210px;
+                bottom: 24px;
+            }.cuarta{
+                position: absolute;
+                right: 170px;
+                bottom: 36px;
+            }.quinta{
+                position: absolute;
+                right: 170px;
+                bottom: 48px;
+            }.sexta{
+                position: absolute;
+                right: 60px;
+                bottom: 60px;
+            }.septima{
+                position: absolute;
+                right: 130px;
+                bottom: 72px;
+            }.octava{
+                position: absolute;
+                right: 125px;
+                bottom: 84px;
+            }.novena{
+                position: absolute;
+                right: 90px;
+                bottom: 96px;
+            }.decima{
+                position: absolute;
+                right: 130px;
+                bottom: 108px;
+            }.decima1{
+                position: absolute;
+                right: 110px;
+                bottom: 120px;
+            }.decima2{
+                position: absolute;
+                right: 70px;
+                bottom: 132px;
+            }.decima3{
+                position: absolute;
+                right: 80px;
+                bottom: 144px;
+            }.decima4{
+                position: absolute;
+                right: 95px;
+                bottom: 156px;
+            }.decima5{
+                position: absolute;
+                right: 90px;
+                bottom: 168px;
+            }.decima6{
+                position: absolute;
+                right: 100px;
+                bottom: 180px;
+            }.decima7{
+                position: absolute;
+                right: 105px;
+                bottom: 192px;
+            }.decima8{
+                position: absolute;
+                right: 85px;
+                bottom: 204px;
+            }.decima9{
+                position: absolute;
+                right: 100px;
+                bottom: 216px;
+            }.vigesima{
+                position: absolute;
+                right: 145px;
+                bottom: 228px;
+            }.vigesima1{
+                position: absolute;
+                right: 180px;
+                bottom: 240px;
+            }.vigesima2{
+                position: absolute;
+                right: 210px;
+                bottom: 228px;
+            }.vigesima3{
+                position: absolute;
+                right: 210px;
+                bottom: 216px;
+            }.vigesima4{
+                position: absolute;
+                right: 210px;
+                bottom: 204px;
+            }.vigesima5{
+                position: absolute;
+                right: 230px;
+                bottom: 192px;
+            }.vigesima6{
+                position: absolute;
+                right: 250px;
+                bottom: 180px;
+            }
+            /*-----------------Realizado medio corazón---------------*/
+
+            .cero-{
+                position: absolute;
+                right: 285px;
+                bottom: 0px;
+            }
+            .primera-{
+                position: absolute;
+                right: 300px;
+                bottom: 12px;
+            }.segunda-{
+                position: absolute;
+                right: 315px;
+                bottom: 24px;
+            }.tercera-{
+                position: absolute;
+                right: 330px;
+                bottom: 36px;
+            }.cuarta-{
+                position: absolute;
+                right: 345px;
+                bottom: 48px;
+            }.quinta-{
+                position: absolute;
+                right: 360px;
+                bottom: 60px;
+            }.sexta-{
+                position: absolute;
+                right: 375px;
+                bottom: 72px;
+            }.septima-{
+                position: absolute;
+                right: 390px;
+                bottom: 84px;
+            }.octava-{
+                position: absolute;
+                right: 405px;
+                bottom: 96px;
+            }.novena-{
+                position: absolute;
+                right: 420px;
+                bottom: 108px;
+            }.decima-{
+                position: absolute;
+                right: 425px;
+                bottom: 120px;
+            }.decima-1{
+                position: absolute;
+                right: 430px;
+                bottom: 132px;
+            }.decima-2{
+                position: absolute;
+                right: 435px;
+                bottom: 144px;
+            }.decima-3{
+                position: absolute;
+                right: 435px;
+                bottom: 156px;
+            }.decima-4{
+                position: absolute;
+                right: 435px;
+                bottom: 168px;
+            }.decima-5{
+                position: absolute;
+                right: 430px;
+                bottom: 180px;
+            }.decima-6{
+                position: absolute;
+                right: 425px;
+                bottom: 192px;
+            }.decima-7{
+                position: absolute;
+                right: 420px;
+                bottom: 204px;
+            }.decima-8{
+                position: absolute;
+                right: 405px;
+                bottom: 216px;
+            }.decima-9{
+                position: absolute;
+                right: 390px;
+                bottom: 228px;
+            }.vigesima-{
+                position: absolute;
+                right: 355px;
+                bottom: 240px;
+            }.vigesima-1{
+                position: absolute;
+                right: 325px;
+                bottom: 228px;
+            }.vigesima-2{
+                position: absolute;
+                right: 315px;
+                bottom: 216px;
+            }.vigesima-3{
+                position: absolute;
+                right: 305px;
+                bottom: 204px;
+            }.vigesima-4{
+                position: absolute;
+                right: 295px;
+                bottom: 192px;
+            }.vigesima-5{
+                position: absolute;
+                right: 285px;
+                bottom: 180px;
+            }.vigesima-6{
+                position: absolute;
+                right: 267px;
+                bottom: 168px;
+            }
+
+            /*Realizo la animación de latido*/
+            /****/
+            p{
+                /*Accedo a todos los parrafos*/
+                animation: latiendo 1.3s linear infinite;
+            }
+
+            @keyframes latiendo{
+                0%{transform: scale(1.3);}
+                80%{transform: scale(2.);}
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="amor">REBEQUITA</p>
+        <p class="amor1">Puedo hacer ya la Pregunta?❤️‍🩹</p>
+        <p class="amor2">🥺🥺🥺</p>
+        
+
+        <p class="primera">Mi Amor</p>
+        <p class="segunda">Que Nadie</p>
+        <p class="tercera">Tú Lo</p>
+        <p class="cuarta">Soy Nada</p>
+        <p class="quinta">Para Mí</p>
+        <p class="sexta">QUEDATE CONMIGO</p>
+        <p class="septima">Te Lo Pido</p>
+        <p class="octava">Y Cuando</p>
+        <p class="novena">Podemos Con</p>
+        <p class="decima">Juntos</p>
+        <p class="decima1">Sigamos</p>
+        <p class="decima2">Así Como Yo.</p>
+        <p class="decima3">Tú Tambien</p>
+        <p class="decima4">Corazón.</p>
+        <p class="decima5">Digo Con</p>
+        <p class="decima6">Que Me</p>
+        <p class="decima7">Te Digo</p>
+        <p class="decima8">He Causado</p>
+        <p class="decima9">Lamento El</p>
+        <p class="vigesima">Pero No</p>
+        <p class="vigesima1">Ser Muy</p>
+        <p class="vigesima2">Se Que</p>
+        <p class="vigesima3">Prometo Que</p>
+        <p class="vigesima4">Hacerte Muy</p>
+        <p class="vigesima5">Mi Vida</p>
+        <p class="vigesima6">Tanto</p>
+
+
+        <p class="cero-">Te Amo</p>
+        <p class="primera-">Sabes Más</p>
+        <p class="segunda-">Y eso </p>
+        <p class="tercera-">Sin Ti No</p>
+        <p class="cuarta-">Eres Todo</p>
+        <p class="quinta-">Una Vez Más</p>
+        <p class="sexta-">Estemos Juntos.</p>
+        <p class="septima-">Todo, Siempre</p>
+        <p class="octava-">Tú y Yo</p>
+        <p class="novena-">Adelante</p>
+        <p class="decima-">Por Favor</p>
+        <p class="decima-1">Lo Sientes</p>
+        <p class="decima-2">Se Que</p>
+        <p class="decima-3">Todo Mi</p>
+        <p class="decima-4">Haces, Lo</p>
+        <p class="decima-5">Lo Feliz</p>
+        <p class="decima-6">Y Cuando</p>
+        <p class="decima-7">Dolor Que</p>
+        <p class="decima-8">Te Rindas.</p>
+        <p class="decima-9">Dificil</p>
+        <p class="vigesima-">Esto Puede</p>
+        <p class="vigesima-1">Lo Haré</p>
+        <p class="vigesima-2">Feliz, Te</p>
+        <p class="vigesima-3">Dejame</p>
+        <p class="vigesima-4">Te Quiero</p>
+        <p class="vigesima-5">Te Amo</p>
+        <p class="vigesima-6">TE AMO</p>
+    </div>
+
+    <div class="btn">
+        <a href="https://web-rlpreguntarbt.netlify.app/flower" class="boton">SI</a>
+        <a href="no1.html" class="boton">NO</a>
+    </div>
+
+    <style>
+        .btn {
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Espacio entre los botones */
+        }
+
+
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #b80eda;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 18px;
+            text-align: center;
+            margin: 5px;
+        }
+    
+        .boton:hover {
+            background-color: #b80eda;
+        }
+    </style>
+    
+    
+</body>
+</html>
