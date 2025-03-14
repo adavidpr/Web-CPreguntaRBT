@@ -17,9 +17,9 @@
             height: 500px;
             /*Le damos ancho y alto - ahora le vamos a dar un borde para que se vea*/
             /*border: 3px solid blue; Quitamos el marco azul*/
-            right: -550px;
+            right: -20px;
             bottom: 0px;
-            position: center;
+            position: relative;
             /*Posicionamos relative para que quede como padre el contenedor 
             Luego a las palabras de dentro posicionaremos absolute
             Para que tome al contenedor padre como referencia al ponerle las propiedades de margin, bottom, etc*/
@@ -27,9 +27,10 @@
 
         .btn {
         display: flex;
-        justify-content: center;
+        justify-content: relative;
         gap: 50px; /* Espacio entre los botones */
-        margin-top: 250px; /* Bajamos el botón más abajo del centro */
+        margin-top: 20px; /* Bajamos el botón más abajo del centro */
+        margin-left: 130px;
         }
 
         .boton {
