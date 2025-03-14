@@ -19,14 +19,35 @@
             /*border: 3px solid blue; Quitamos el marco azul*/
             right: -550px;
             bottom: 0px;
-            position: relative;
+             position: center;
             /*Posicionamos relative para que quede como padre el contenedor 
             Luego a las palabras de dentro posicionaremos absolute
             Para que tome al contenedor padre como referencia al ponerle las propiedades de margin, bottom, etc*/
         } /*Accedemos a la palabra principal del centro de nuestro corazón*/
 
-        
+        .btn {
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Espacio entre los botones */
+        margin-top: 250px; /* Bajamos el botón más abajo del centro */
+        }
 
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #b80eda;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 18px;
+            text-align: center;
+            margin: 5px;
+        }
+    
+        .boton:hover {
+            background-color: #b80eda;
+        }
+        
         .amor{
             position: absolute;
             right: 225px;
@@ -360,28 +381,7 @@
     </div>
 
     <style>
-        .btn {
-        display: flex;
-        justify-content: center;
-        gap: 50px; /* Espacio entre los botones */
-        }
-
-
-        .boton {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #b80eda;
-            color: white;
-            text-decoration: none;
-            border-radius: 15px;
-            font-size: 18px;
-            text-align: center;
-            margin: 5px;
-        }
-    
-        .boton:hover {
-            background-color: #b80eda;
-        }
+        
     </style>
     
     
